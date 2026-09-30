@@ -1,0 +1,19 @@
+GET http://localhost:3000/books
+
+###
+
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "bookName": "Hard Times",
+  "author": "Charles Dickens",
+  "isbn": "4657890943222",
+  "genre": "fiction",
+  "publisherYear": 1997
+}
+
+###
+
+
+PUT http://localhost:3000/books/
